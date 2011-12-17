@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: current file name
+# key: filename
+# --
+`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`.$0

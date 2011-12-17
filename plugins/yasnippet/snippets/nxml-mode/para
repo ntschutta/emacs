@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: paragraph
+# key: p
+# --
+<para>
+$0
+</para>

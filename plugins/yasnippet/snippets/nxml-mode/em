@@ -1,0 +1,5 @@
+#contributor : Neal Ford
+#name: emphasis
+#key: em
+# --
+<emphasis>$1</emphasis>

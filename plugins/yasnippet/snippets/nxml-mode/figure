@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: figures
+# key: fig
+# --
+<xref linkend ="`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`-fig$1" />.
+
+</para>
+
+<figure id="`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`-fig$1">
+  <title>$2</title>
+    <mediaobject>
+      <imageobject role="print">
+        <imagedata width="33%" fileref="figs/print/`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`-fig$1.pdf"/>
+      </imageobject>
+
+      <imageobject role="web">
+        <imagedata width="40%" fileref="figs/web/`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`-fig$1.png"/>
+      </imageobject>
+  </mediaobject>
+</figure>
+
+<para>
