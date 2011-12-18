@@ -30,7 +30,6 @@
 (color-theme-mac-classic)
 
 
-
 ;; handy extensions ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; winring - for save/restore window configurations
