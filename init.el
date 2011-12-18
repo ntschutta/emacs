@@ -249,6 +249,7 @@
 (speedbar 1)
 (speedbar-add-supported-extension ".xml")
 (speedbar-add-supported-extension ".md")
+(speedbar-add-supported-extension ".zip")
 (custom-set-variables
  '(speedbar-show-unknown-files t)
 )
@@ -262,3 +263,9 @@
 
 ;; turn off scroll bars
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
+
+;; automatically parses the archive of a gzip/zip/jar/tar or 
+;; basically any other archive when you open it in Emacs, and 
+;; lets you selectively open (and modify and save!) files 
+;; inside of archives - including files in archives in other archives.
+(auto-compression-mode 1)
