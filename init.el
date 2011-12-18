@@ -245,7 +245,7 @@
 
 ;; start speed bar and set to show all filetypes
 ;; upper left hand corner, add types
-(setq speedbar-frame-parameters '((left . 0) (width . 34) ))
+(setq speedbar-frame-parameters '((left . 0) (width . 35) (height . 39) ))
 (speedbar 1)
 (speedbar-add-supported-extension ".xml")
 (speedbar-add-supported-extension ".md")
@@ -259,3 +259,6 @@
 (global-set-key "\C-w" 'backward-kill-word)
 (global-set-key "\C-x\C-k" 'kill-region)
 (global-set-key "\C-c\C-k" 'kill-region)
+
+;; turn off scroll bars
+(if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
