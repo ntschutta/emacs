@@ -25,7 +25,9 @@
 (color-theme-initialize)
 ;(color-theme-arjen)
 ;(color-theme-charcoal-black)
-(color-theme-billw)
+;(color-theme-billw)
+;(color-theme-clarity)
+(color-theme-mac-classic)
 
 
 
